@@ -8,5 +8,6 @@ def batch_badge_creator(array)
   array.collect do |item|
     "Hello, my name is #{item}."
   end 
-
 end 
+
+def assign_rooms

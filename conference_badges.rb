@@ -14,7 +14,7 @@ def assign_rooms(list)
   number = 0  
   list.collect do |person|
     number += 
-    "Hello, #{person}!  You'll be assigned to room #{number}"
+    "Hello, #{person}!  You'll be assigned to room #{number.to_s}"
  
   end 
 

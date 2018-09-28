@@ -17,7 +17,7 @@ def assign_rooms(list)
     "Hello, #{person}! You'll be assigned to room #{number.to_s}!"
  
   end 
-
+end 
 def printer(attendees)
 
 

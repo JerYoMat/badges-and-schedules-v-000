@@ -11,7 +11,7 @@ def batch_badge_creator(array)
 end 
 
 def assign_rooms(list)
-  number = 0
+  number = 1 
   list.collect do |person|
     "Hello, #{person}!  You'll be assigned to room #{number}"
     number = number + 1 

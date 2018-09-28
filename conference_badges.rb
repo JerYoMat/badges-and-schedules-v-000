@@ -11,10 +11,11 @@ def batch_badge_creator(array)
 end 
 
 def assign_rooms(list)
-  number = 1 
+  number = 0  
   list.collect do |person|
+    number += 
     "Hello, #{person}!  You'll be assigned to room #{number}"
-    number = number + 1 
+ 
   end 
 
 end 

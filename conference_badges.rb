@@ -19,13 +19,5 @@ def assign_rooms(list)
   end 
 end 
 
-def printer(attendees)
-name_tags = batch_badge_creator(attendees)
-room_assignments = assign_rooms(attendees)
-  name_tags.collect do |card|
-    
-    
-  end 
 
-end 
 

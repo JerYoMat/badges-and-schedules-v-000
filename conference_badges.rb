@@ -21,12 +21,9 @@ def assign_rooms(array)
 end
 
 def printer(array)
-  room_assignments = []
-  array.each_with_index do |name, index|
-    assignment = "Hello, #{name}! You'll be assigned to room #{index + 1}!"
-    room_assignments << assignment
-  end
-  room_assignments
-
-
+assignments = assign_rooms(array)
+assignments.each_with_index do |assignment, index|
+  puts assignment
+  puts badge_maker(array[index])
+end 
 end 
